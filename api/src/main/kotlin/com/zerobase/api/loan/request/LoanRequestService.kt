@@ -8,5 +8,5 @@ interface LoanRequestService {
     fun saveUserInfo(
         userInfoDto: UserInfoDto
     )
-    fun loanRequestReview(userKey : String)
+    fun loanRequestReview(userInfoDto: UserInfoDto)
 }
