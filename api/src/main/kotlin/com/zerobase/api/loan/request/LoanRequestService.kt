@@ -1,4 +1,12 @@
 package com.zerobase.api.loan.request
 
-class LoanRequestService {
+
+interface LoanRequestService {
+    fun loanRequestMain(
+        loanRequestInputDto: LoanRequestDto.LoanRequestInputDto
+    ) : LoanRequestDto.LoanRequestResponseDto
+    fun saveUserInfo(
+        userInfoDto: UserInfoDto
+    )
+    fun loanRequestReview(userKey : String)
 }

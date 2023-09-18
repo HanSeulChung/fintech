@@ -1,4 +1,4 @@
-package com.zerobase.api
+package com.zerobase.api.test
 
 class TestDto {
     data class UserInfoDto(

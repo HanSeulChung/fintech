@@ -1,4 +1,4 @@
-package com.zerobase.api
+package com.zerobase.api.test
 
 import com.zerobase.domain.persist.entity.UserInfo
 import com.zerobase.domain.persist.repoisitory.UserInfoRepository
