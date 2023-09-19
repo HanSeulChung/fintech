@@ -22,4 +22,7 @@ dependencies {
 
     // Logging // 지연연산이 가능함
     implementation("io.github.microutils:kotlin-logging-jvm:3.0.4")
+
+    // Redis
+    implementation("org.springframework.boot:spring-boot-starter-data-redis")
 }
